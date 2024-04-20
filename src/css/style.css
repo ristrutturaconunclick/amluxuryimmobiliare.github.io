@@ -24,6 +24,15 @@ body, html {
   margin: 5px;
 }
 
+/* Icon Center */
+.icon-center{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background: white;
+  border-radius: 5%;
+}
+
 /* TEXT */
 .text-h1 {
   margin-left: auto;
