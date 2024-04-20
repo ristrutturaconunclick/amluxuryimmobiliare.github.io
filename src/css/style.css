@@ -1,0 +1,80 @@
+/* DESKTOP */
+body, html {
+  background: url('/src/img/sfondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 2%;
+  margin-left: 25%;
+  bottom: 30px;
+  text-align: center;
+  width: 50%;
+}
+
+.buttons button {
+  margin: 5px;
+}
+
+/* TEXT */
+.text-h1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 15em;
+  background-color: white;
+  color: black;
+}
+
+.text-p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+
+/* Centering */
+.mid-center { 
+  top: 50%; 
+  left: 50%; 
+  transform: translateX(-50%) translateY(-50%); 
+} 
+
+
+/* MOBILE */
+@media screen and (max-width: 767px){
+  .container {
+    position: relative;
+    height: 100vh;
+  }
+
+  .mid-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .buttons {
+    margin-top: 0; 
+    bottom: 30px;
+    margin-left: 10%; 
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+  }
+
+  .text-h1 {
+    width: auto;
+  } 
+
+  .text-p {
+    width: auto;
+  }
+}
